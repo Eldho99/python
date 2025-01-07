@@ -1,0 +1,9 @@
+thislist={"apple","banana","orange"}
+print(thislist)
+print(len(thislist))
+thislist.add("grapes")
+tropical={"mango","pineapple","pappaya"}
+thislist.update(tropical)
+thislist.remove("apple")
+thislist.discard("orange")
+print(thislist)

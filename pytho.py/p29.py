@@ -1,0 +1,20 @@
+list1=["red","blue","green","yellow","purple","green"]
+x=list1.count("green")
+print(x)
+list2=[1,25,67,89,99,25]
+y=list2.count(25)
+print(y)
+z=max(list2)
+print(z,"is the largest")
+a=min(list2)
+print(a,"is the smallest")
+print(67 in list2)
+print("cherry" not in list2)
+print(sum(list2))
+list2.sort()
+print(list2)
+list1.sort()
+print(list1)
+print(max(list1))
+print(min(list1))
+
